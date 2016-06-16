@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By only focusing on the lines that changed, it is possible to focus in on only the places that the 
+bug could have been introduced, saving time.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+By being able to access previous working version, it allows you to reset to points in time without having to manually
+backtrace in order to find a bug.  It also allows you to use tools like diff to compare and see where you may have 
+gone wrong.  Finally, it allows you to attempt different things without the worry of ruining a file/project.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Pros:
+Each commit probably represents a logical change.
+The user is given control, which allows him to choose how big/small of a change or how long to wait before committing.  
+Cons:
+User error: The user may forget to commit or commit too often.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+It is common to use Git for projects where many of the files are interelated, and so it makes sense to track those files together.
+Most Google Docs are not interelated in the same way, and in fact most stand alone.
+
+How can you use the commands git log and git diff to view the history of files?
+git log can be used to see a list of all the commits along with messages indicated the changes made with that commit.
+git diff can be used the see the actual changes between 2 separate commits.
+
+How might using version control make you more confident to make changes that could break something?
+You know you can always revert back to a working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Managing XCode projects
+
