@@ -23,3 +23,7 @@ Pros:
 - It catches changes a human might not (avoids some user error).
 Cons:
 - The user loses some control and is no longer able to explicitly specificy every change that should be kept.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Multiple people could be making changes to the remote repository.  The changes they make or the changes you've made from a separate location
+could break your current code.
