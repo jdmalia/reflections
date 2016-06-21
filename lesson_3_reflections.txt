@@ -16,3 +16,7 @@ a remote repository locally.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 It allows use to fetch and use diff to find out what changes have been made since we last pulled.  It allows us to merge when the remote branch and
 our local branch diverge.  
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would use a cloud service like Dropbox or Google Drive. It would be harder to keep track of the history via commits and to merge conflicts.  
+Finally, since 1 change affects all versions it would be easy to break the project or add changes that were not approved.
