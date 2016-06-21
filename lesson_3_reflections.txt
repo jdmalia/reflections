@@ -12,3 +12,7 @@ makes a clone of a repository on GitHub's servers but keeps additional informati
 is performed on a local repository and is not a separate copy but rather shares a common history.  Forking makes sense when you want to clone
 someone else's repository to make your own changes and possibly do not have the permission to do so.  Cloning is primarily used to have a copy of 
 a remote repository locally.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+It allows use to fetch and use diff to find out what changes have been made since we last pulled.  It allows us to merge when the remote branch and
+our local branch diverge.  
