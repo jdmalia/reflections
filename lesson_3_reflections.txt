@@ -20,3 +20,8 @@ our local branch diverge.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would use a cloud service like Dropbox or Google Drive. It would be harder to keep track of the history via commits and to merge conflicts.  
 Finally, since 1 change affects all versions it would be easy to break the project or add changes that were not approved.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When you want to try out the change without disrupting the working copy or the current functionality of the master.  Also as part of colloboration
+workflow...you can make changes to a spearate branch then create a pull request to update the master.  Updating the master has the advantage that 
+(assuming everything is kept current/in sync) you avoid merge conflicts, and in my opinion have a simpler structure to track.
